@@ -1,0 +1,81 @@
+Building package "garuda-xfce-kwin-settings"
+:: Synchronizing package databases...
+ core downloading...
+ extra downloading...
+ community downloading...
+ multilib downloading...
+ chaotic-aur downloading...
+ garuda downloading...
+:: Starting full system upgrade...
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (2) ca-certificates-mozilla-3.89.1-1  perl-5.36.1-1
+
+Total Installed Size:  60.67 MiB
+Net Upgrade Size:      -0.08 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+:: Processing package changes...
+upgrading ca-certificates-mozilla...
+upgrading perl...
+:: Running post-transaction hooks...
+(1/3) Arming ConditionNeedsUpdate...
+(2/3) Rebuilding certificate stores...
+(3/3) Warn about old perl modules
+:: There are 2 providers available for kvantum-qt5:
+:: Repository community
+   1) kvantum
+:: Repository chaotic-aur
+   2) kvantum-git
+
+Enter a number (default=1): warning: coreutils-9.3-1 is up to date -- skipping
+
+resolving dependencies...
+:: There are 2 providers available for libgl:
+:: Repository extra
+   1) libglvnd
+:: Repository chaotic-aur
+   2) libglvnd-git
+
+Enter a number (default=1): 
+:: There are 3 providers available for jack:
+:: Repository extra
+   1) jack2  2) pipewire-jack
+:: Repository chaotic-aur
+   3) pipewire-common-jack-git
+
+Enter a number (default=1): 
+:: There are 2 providers available for libva.so=2-64:
+:: Repository extra
+   1) libva
+:: Repository chaotic-aur
+   2) libva-git
+
+Enter a number (default=1): 
+:: There are 2 providers available for libzimg.so=2-64:
+:: Repository extra
+   1) zimg
+:: Repository chaotic-aur
+   2) zimg-git
+
+Enter a number (default=1): 
+looking for conflicting packages...
+error: unresolvable package conflicts detected
+error: failed to prepare transaction (conflicting dependencies)
+:: ttf-fantasque-nerd and nerd-fonts-fantasque-sans-mono are in conflict
+umount: /var/cache/chaotic/routines/hourly/garuda-xfce-kwin-settings/machine/root/home/main-builder/pkgwork unmounted
+umount: /var/cache/chaotic/routines/hourly/garuda-xfce-kwin-settings/machine/root/home/main-builder/.ccache unmounted
+umount: /var/cache/chaotic/routines/hourly/garuda-xfce-kwin-settings/machine/root/home/main-builder/pkgsrc unmounted
+umount: /var/cache/chaotic/routines/hourly/garuda-xfce-kwin-settings/machine/root/var/cache/pacman/pkg unmounted
+umount: /var/cache/chaotic/routines/hourly/garuda-xfce-kwin-settings/machine/root/var/pkgdest unmounted
+umount: /var/cache/chaotic/routines/hourly/garuda-xfce-kwin-settings/machine/root (overlay) unmounted
+
+real	0m5.034s
+user	0m1.653s
+sys	0m1.946s
